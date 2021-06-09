@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    height: 3461.81px;
+    width: 1349px;
+    padding: 70px;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    bottom: 555px;
+    right: 0px;
+    left: 0px;
+    display: block;
+    z-index: 3;
+}
+.section-inner{
+    height: 70px;
+    width: 1015px;
+    margin: 0 167px 0 167px;
+    padding: 0 20px 0 20px;
+    max-width: 1015px;
+    position: relative;
+    display: block;
+}
+#max-logo{
+    height:33px ;
+    width: 268px;
+    max-width: 100%;
+    display: inline;
+}

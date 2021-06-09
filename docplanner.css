@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    top:0px;
+}
+#logo-docplanner{
+    height:33px;
+    width: 268px;
+    max-width: 100%;
+    cursor: pointer;
+}
+.menu{
+    
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 30px;
+    height: 69.875px;
+    width:200x;
+    padding: 20px 0 20px 0;
+    display: flex;
+    list-style-type: none;
+}
+.menu-item{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #747474;
+}
+.drop-menu{
+    display: none;
+    color: #747474;
+    height: 220px;
+    width: 220px;
+    padding-right: 20px;
+    margin-left: -100px;
+    position: absolute;
+    box-shadow:0px 0px 10px #ddd;
+}
+.menu-item:hover .drop-menu{
+flex-direction: column;
+display: flex;
+color: #ababab;
+position:absolute;
+}
+.drop-menu-item{
+    list-style-type: none;
+    color: #ababab;
+}
+.menu-item:hover{
+    color: rgb(0,179,155);
+}
+.drop-menu-item:hover{
+    color: rgb(0,179,155);
+}
+
+.logo-mini{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+main > section:not(.numbers) {
+    margin: 0 13%;
+  }
+  .First-section {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .First-section h1 {
+    font: 300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+  }
+  .Second-section {
+    display: flex;
+    justify-content: space-between;
+    /* width:1000px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Second-section p {
+    width: 480px;
+    font: 400 16px Roboto, Arial, sans-serif;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+  }
+.Third-section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    /* background-color: #e0f9f7; */
+  }
+  
+  .Third-section h1 h2{
+    font: 300 26px "Work Sans", Arial, sans-serif;
+    line-height: 33.8px;
+    color: rgb(0, 179, 155);
+  }
+  /* body{
+      background-image: url("https://secure.meetupstatic.com/photos/event/9/e/9/f/highres_486760607.jpeg");
+  } */
+  .Fourth-section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Fourth-section > div {
+    width: 30%;
+    border-radius: 8px;
+    font: 300 24px "Work Sans", Arial, sans-serif;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    height: 280px;
+  }
+  .patients {
+    background-color: #1ad1b9;
+  }
+  .doctors {
+    background-color: #5190e2;
+  }
+  .clinics {
+    background-color: #323d49;
+  }
+  select {
+    font: 400 19.2px Roboto, Arial, sans-serif;
+    color: white;
+    line-height: 24.96px;
+    text-decoration: underline;
+  }
+  .patients select {
+    border-color: #1ad1b9;
+    background-color: #1ad1b9;
+    margin-top: 30%;
+  }
+  .doctors select {
+    background-color: #5190e2;
+    border-color: #5190e2;
+    margin-top: 30%;
+  }
+  .clinics select {
+    border-color: #323d49;
+    background-color: #323d49;
+  }
+  .selectClinic {
+    margin-top: 21%;
+  }
+  
+  option {
+    background-color: white;
+    color: #000;
+  }
+  .Fifth-section {
+    background-color: #dff8f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .col {
+    width: 20vw;
+    height: 22vw;
+    background-color: white;
+    border-radius: 6px;
+    margin: 20px 20px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .col-desc,
+  .col-img {
+    width: 30vw;
+  }
+  .col-img img {
+    margin-left: -50px;
+    margin-top: 60px;
+  }
+  
+  .col-desc h2 {
+    font: 300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+  }
+  .col-desc p {
+    font: 400 14px Roboto, Arial, sans-serif;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+  }
+  .col h4 {
+    font: 300 24px "Work Sans", Arial, sans-serif;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+  }
+  .col p {
+    font: 400 16px "Work Sans", Arial, sans-serif;
+    line-height: 16.9px;
+    color: rgb(116, 116, 116);
+  }
+  .Sixth-section{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 40%;
+    margin-bottom: 300px;
+  }
+  .Sixth-section h5 {
+    font: 300 30px "Work Sans", Arial, sans-serif;
+    line-height: 39px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+  }
+  .Sixth-section p {
+    font: 400 14px Roboto, Arial, sans-serif;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .cont {
+    margin-top: 100px !important;
+  }
+  
+  .ind {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ind p {
+    color: gray;
+    font-size: 17px;
+    height: 25px;
+    margin-top: 10px;
+  }
+  
+  .box {
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #1662c6;
+    height: 25px;
+    color: white;
+    align-items: baseline;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    transition: 1s all ease;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    background: rgba(1, 1, 73, 0.925);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover .box {
+    box-shadow: 0 0 12px #aaa;
+  }
+  .col1 img {
+    border-radius: 8px;
+  }
+  footer {
+    color: grey;
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 1px ridge rgb(231, 223, 223);
+    line-height: 20px;
+  }
